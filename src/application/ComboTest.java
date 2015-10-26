@@ -22,7 +22,7 @@ public class ComboTest extends Application {
 		
 		ComboBox <String>cb;
 		Label label = new Label("Nothing selected!");
-		ObservableList <String> entries=FXCollections.observableArrayList("JavaFX","HTML5","JavaScript","SELECT");
+		ObservableList <String> entries=FXCollections.observableArrayList("JavaFX","HTML5","JavaScript","SELECT","GitHub");
 		cb=new ComboBox<String>(entries);
 		
 		cb.setValue("JavaFX");
