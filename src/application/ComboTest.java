@@ -21,7 +21,7 @@ public class ComboTest extends Application {
 		primaryStage.show();
 		
 		ComboBox <String>cb;
-		Label label = new Label("Nothing selected");
+		Label label = new Label("Nothing selected!");
 		ObservableList <String> entries=FXCollections.observableArrayList("JavaFX","HTML5","JavaScript","SELECT");
 		cb=new ComboBox<String>(entries);
 		
